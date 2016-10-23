@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="42152536157453"
+    token="-4302274382572817870"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="151" />
+    <task
+        name="instant-run-dex"
+        duration="681" />
+    <task
+        name="instant-run-transform"
+        duration="21" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="40504400391335"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="41286278763034"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="42030190640115"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="42109128673690"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/builds/debug/42109128673690/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="42152536157453"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

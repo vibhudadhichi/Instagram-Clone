@@ -1,0 +1,7 @@
+#Sun Oct 23 14:22:00 IST 2016
+base.0=/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a7bd82e3709933f71089d64dcb029b128cdf6c98
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1f581b0ae4b469b41eab6d716d9faf86ed194b7d/classes.dex
+base.1=/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1f581b0ae4b469b41eab6d716d9faf86ed194b7d
+file.0=/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a7bd82e3709933f71089d64dcb029b128cdf6c98/classes.dex
