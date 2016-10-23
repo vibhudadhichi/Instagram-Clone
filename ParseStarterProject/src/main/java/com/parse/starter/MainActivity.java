@@ -15,7 +15,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
@@ -26,10 +28,40 @@ import com.parse.SignUpCallback;
 
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
   EditText usernameField;
   EditText passwordField;
+  TextView changeSignUpModeTextView;
+  Button signUpButton;
+
+  Boolean signUpModeActive;
+
+  @Override
+  public void onClick(View view) {
+
+    if( view.getId() == R.id.changeSignUpMode){
+
+      if(signUpModeActive == true)
+      {
+
+        signUpModeActive = false;
+        changeSignUpModeTextView.setText("Sign Up");
+        signUpButton.setText("Log In");
+
+      }else {
+
+        signUpModeActive = true;
+        changeSignUpModeTextView.setText("Log In");
+        signUpButton.setText("Sign Up");
+
+      }
+
+      Log.i("AppInfo","Change Sign up Mode");
+
+    }
+
+  }
 
   public void signUpOrLogin(View view)
   {
@@ -49,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
           Log.i("AppInfo","Not Successful");
-          Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();
+          Toast.makeText(getApplicationContext(),e.getMessage().substring(e.getMessage().indexOf(" ")),Toast.LENGTH_LONG).show();
         }
       }
     });
@@ -62,8 +94,14 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    signUpModeActive = true;
+
     usernameField = (EditText) findViewById(R.id.username);
     passwordField = (EditText) findViewById(R.id.password);
+    changeSignUpModeTextView = (TextView) findViewById(R.id.changeSignUpMode);
+    signUpButton = (Button) findViewById(R.id.signUpButton);
+
+    changeSignUpModeTextView.setOnClickListener(this);
 
 
 
@@ -92,4 +130,6 @@ public class MainActivity extends AppCompatActivity {
 
     return super.onOptionsItemSelected(item);
   }
+
+
 }

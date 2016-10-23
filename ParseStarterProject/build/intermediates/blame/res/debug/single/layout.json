@@ -4,12 +4,12 @@
         "source": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/vibhudadhichi/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
